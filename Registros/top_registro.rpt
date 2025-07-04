@@ -1,0 +1,338 @@
+
+     | | | | | | |
+   _________________
+  -|               |-
+  -|               |-
+  -|               |-
+  -|    CYPRESS    |-
+  -|               |-
+  -|               |-   Warp VHDL Synthesis Compiler: Version 6.3 IR 35
+  -|               |-   Copyright (C) 1991-2001 Cypress Semiconductor
+   |_______________|
+     | | | | | | |
+
+======================================================================
+Compiling:  top_registro.vhd
+Options:    -m -yu -e10 -w100 -o2 -ygs -fP -v10 -dc22v10 -ppalc22v10d-25pc -a registro_base.vhd -b top_registro.vhd -u Registros.hie
+======================================================================
+
+vhdlfe V6.3 IR 35:  VHDL parser
+Mon Jun 30 01:57:56 2025
+
+Library 'work' => directory 'lc22v10'
+Linking 'C:\ARCHIV~1\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\ARCHIV~1\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\ARCHIV~1\Cypress\Warp\lib\common\work\cypress.vif'.
+Library 'ieee' => directory 'C:\ARCHIV~1\Cypress\Warp\lib\ieee\work'
+Linking 'C:\ARCHIV~1\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+
+vhdlfe:  No errors.
+
+
+tovif V6.3 IR 35:  High-level synthesis
+Mon Jun 30 01:57:56 2025
+
+Linking 'C:\ARCHIV~1\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\ARCHIV~1\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\ARCHIV~1\Cypress\Warp\lib\common\work\cypress.vif'.
+Linking 'C:\ARCHIV~1\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+
+tovif:  No errors.
+
+
+topld V6.3 IR 35:  Synthesis and optimization
+Mon Jun 30 01:57:56 2025
+
+Linking 'C:\ARCHIV~1\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\ARCHIV~1\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\ARCHIV~1\Cypress\Warp\lib\common\work\cypress.vif'.
+Linking 'C:\ARCHIV~1\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\ARCHIV~1\Cypress\Warp\lib\lc22v10\stdlogic\c22v10.vif'.
+Linking 'C:\Documents and Settings\FDD\Escritorio\Proyecto DSD\Registros\lc22v10\registro_base.vif'.
+
+----------------------------------------------------------
+Detecting unused logic.
+----------------------------------------------------------
+
+
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+
+------------------------------------------------------
+Aliased 0 equations, 0 wires.
+------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification
+----------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification results:
+
+	Expanded 0 signals.
+	Turned 0 signals into soft nodes.
+	Maximum default expansion cost was set at 10.
+----------------------------------------------------------
+Created 18 PLD nodes.
+
+topld:  No errors.
+
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+DESIGN HEADER INFORMATION  (01:57:57)
+
+Input File(s): top_registro.pla
+Device       : C22V10
+Package      : palc22v10d-25pc
+ReportFile   : top_registro.rpt
+
+Program Controls:
+    COMMAND LANGUAGE_VHDL 
+    COMMAND PROPERTY BUS_HOLD ENABLE 
+
+Signal Requests:
+    GROUP USEPOL ALL
+    GROUP FAST_SLEW ALL
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+OPTIMIZATION OPTIONS       (01:57:57)
+
+Messages:
+  Information: Process virtual '\r2_out(0)D\'\r2_out(0)D\ ... expanded.
+  Information: Process virtual '\r2_out(1)D\'\r2_out(1)D\ ... expanded.
+  Information: Process virtual '\r1_out(0)D\'\r1_out(0)D\ ... expanded.
+  Information: Process virtual '\r1_out(1)D\'\r1_out(1)D\ ... expanded.
+  Information: Process virtual '\r0_out(0)D\'\r0_out(0)D\ ... expanded.
+  Information: Process virtual '\r0_out(1)D\'\r0_out(1)D\ ... expanded.
+  Information: Optimizing logic using best output polarity for signals:
+         r0_out(0).D r0_out(1).D r1_out(0).D r1_out(1).D r2_out(0).D
+         r2_out(1).D
+
+  Information: Selected logic optimization OFF for signals:
+         r0_out(0).C r0_out(1).C r1_out(0).C r1_out(1).C r2_out(0).C
+         r2_out(1).C
+
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Optimizer Software:       MINOPT.EXE     01/NOV/1999  [v4.02 ] 6.3 IR 35
+
+LOGIC MINIMIZATION         ()
+
+Messages:
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+OPTIMIZATION OPTIONS       (01:57:57)
+
+Messages:
+  Information: Optimizing Banked Preset/Reset requirements.
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Equations" icon=FILE_RPT_EQUATION>
+DESIGN EQUATIONS           (01:57:57)
+</CYPRESSTAG>
+
+    r0_out(0).D =
+          buswires(0) * rin(0) 
+        + r0_out(0).Q * /rin(0) 
+
+    r0_out(0).AR =
+          GND
+
+    r0_out(0).SP =
+          GND
+
+    r0_out(0).C =
+          clk 
+
+    r0_out(1).D =
+          buswires(1) * rin(0) 
+        + r0_out(1).Q * /rin(0) 
+
+    r0_out(1).AR =
+          GND
+
+    r0_out(1).SP =
+          GND
+
+    r0_out(1).C =
+          clk 
+
+    r1_out(0).D =
+          buswires(0) * rin(1) 
+        + r1_out(0).Q * /rin(1) 
+
+    r1_out(0).AR =
+          GND
+
+    r1_out(0).SP =
+          GND
+
+    r1_out(0).C =
+          clk 
+
+    r1_out(1).D =
+          buswires(1) * rin(1) 
+        + r1_out(1).Q * /rin(1) 
+
+    r1_out(1).AR =
+          GND
+
+    r1_out(1).SP =
+          GND
+
+    r1_out(1).C =
+          clk 
+
+    r2_out(0).D =
+          buswires(0) * rin(2) 
+        + r2_out(0).Q * /rin(2) 
+
+    r2_out(0).AR =
+          GND
+
+    r2_out(0).SP =
+          GND
+
+    r2_out(0).C =
+          clk 
+
+    r2_out(1).D =
+          buswires(1) * rin(2) 
+        + r2_out(1).Q * /rin(2) 
+
+    r2_out(1).AR =
+          GND
+
+    r2_out(1).SP =
+          GND
+
+    r2_out(1).C =
+          clk 
+
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+DESIGN RULE CHECK          (01:57:57)
+
+Messages:
+                 None.
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Pinout" icon=FILE_RPT_PINOUT>
+PINOUT INFORMATION   (01:57:57)
+</CYPRESSTAG>
+Messages:
+  Information: Checking for duplicate NODE logic.
+                 None.
+
+
+                                 C22V10
+                 __________________________________________
+            clk =| 1|                                  |24|* not used       
+         rin(2) =| 2|                                  |23|= r2_out(0)      
+         rin(1) =| 3|                                  |22|= r1_out(0)      
+         rin(0) =| 4|                                  |21|= r0_out(0)      
+    buswires(1) =| 5|                                  |20|* not used       
+    buswires(0) =| 6|                                  |19|* not used       
+       not used *| 7|                                  |18|* not used       
+       not used *| 8|                                  |17|* not used       
+       not used *| 9|                                  |16|= r0_out(1)      
+       not used *|10|                                  |15|= r1_out(1)      
+       not used *|11|                                  |14|= r2_out(1)      
+       not used *|12|                                  |13|* not used       
+                 __________________________________________
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Utilization" icon=FILE_RPT_UTILIZATION>
+RESOURCE UTILIZATION (01:57:57)
+</CYPRESSTAG>
+  Information: Macrocell Utilization.
+
+                     Description        Used     Max
+                 ______________________________________
+                 | Dedicated Inputs   |    5  |   11  |
+                 | Clock/Inputs       |    1  |    1  |
+                 | I/O Macrocells     |    6  |   10  |
+                 ______________________________________
+                                          12  /   22   = 54  %
+
+
+  Information: Output Logic Product Term Utilization.
+
+                  Node#  Output Signal Name  Used   Max
+                 ________________________________________
+                 | 14  |  r2_out(1)       |   2  |   8  |
+                 | 15  |  r1_out(1)       |   2  |  10  |
+                 | 16  |  r0_out(1)       |   2  |  12  |
+                 | 17  |  Unused          |   0  |  14  |
+                 | 18  |  Unused          |   0  |  16  |
+                 | 19  |  Unused          |   0  |  16  |
+                 | 20  |  Unused          |   0  |  14  |
+                 | 21  |  r0_out(0)       |   2  |  12  |
+                 | 22  |  r1_out(0)       |   2  |  10  |
+                 | 23  |  r2_out(0)       |   2  |   8  |
+                 | 25  |  Unused          |   0  |   1  |
+                 ________________________________________
+                                             12  / 121   = 9   %
+
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+JEDEC ASSEMBLE             (01:57:57)
+
+Messages:
+  Information: Output file 'top_registro.pin' created.
+  Information: Output file 'top_registro.jed' created.
+
+  Usercode:    
+  Checksum:    5F1C
+
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully at 01:57:57

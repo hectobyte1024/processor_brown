@@ -1,0 +1,11 @@
+ENTITY control_unit_1 IS
+    PORT (
+	w : in std_logic  ; 
+	t : in std_logic_vector (3 downto 0) ; 
+	i : in std_logic_vector (3 downto 0) ; 
+	frin : inout std_logic  ; 
+	clear : inout std_logic  ; 
+	done : inout std_logic  ; 
+	extern : inout std_logic 
+    ) ;
+END control_unit_1 ;

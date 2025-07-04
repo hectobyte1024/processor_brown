@@ -1,0 +1,14 @@
+Cypress Package: palc22v10d-25pc  PinOut File: ContadorDecodificador.pin
+
+This file was created on 06/30/2025 at 00:33:04 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+clk gclk <> Enabled Normal 1 <> [Auto] 
+w in <> Enabled Normal 2 <> [Auto] 
+done in <> Enabled Normal 3 <> [Auto] 
+clear in <> Enabled Normal 4 <> [Auto] 
+t(3) out <> Enabled Normal 15 <> [Auto] 
+t(1) out <> Enabled Normal 16 <> [Auto] 
+t(0) out <> Enabled Normal 21 <> [Auto] 
+t(2) out <> Enabled Normal 22 <> [Auto] 

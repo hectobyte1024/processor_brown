@@ -1,0 +1,2 @@
+ControlAlu.vhd #Entity control_alu 4
+ControlAlu.vhd #Architecture behavioral control_alu 15

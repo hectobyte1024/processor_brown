@@ -1,0 +1,8 @@
+ENTITY gal2_register_decoder IS
+    PORT (
+	rx_in : in std_logic_vector (1 downto 0) ; 
+	ry_in : in std_logic_vector (1 downto 0) ; 
+	x : inout std_logic_vector (2 downto 0) ; 
+	y : inout std_logic_vector (2 downto 0)
+    ) ;
+END gal2_register_decoder ;

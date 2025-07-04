@@ -1,0 +1,2 @@
+Control1.vhd #Entity control_unit_1 4
+Control1.vhd #Architecture behavioral control_unit_1 18

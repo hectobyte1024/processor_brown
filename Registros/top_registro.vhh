@@ -1,0 +1,10 @@
+ENTITY top_level IS
+    PORT (
+	clk : in std_logic  ; 
+	rin : in std_logic_vector (2 downto 0) ; 
+	r0_out : inout std_logic_vector (1 downto 0) ; 
+	r1_out : inout std_logic_vector (1 downto 0) ; 
+	r2_out : inout std_logic_vector (1 downto 0) ; 
+	buswires : in std_logic_vector (1 downto 0)
+    ) ;
+END top_level ;

@@ -1,0 +1,10 @@
+ENTITY control_registers IS
+    PORT (
+	t : in std_logic_vector (3 downto 0) ; 
+	i : in std_logic_vector (3 downto 0) ; 
+	x : in std_logic_vector (2 downto 0) ; 
+	y : in std_logic_vector (2 downto 0) ; 
+	rin : inout std_logic_vector (2 downto 0) ; 
+	rout : inout std_logic_vector (2 downto 0)
+    ) ;
+END control_registers ;

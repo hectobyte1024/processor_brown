@@ -1,0 +1,15 @@
+Cypress Package: palc22v10d-25pc  PinOut File: top_registro_ag.pin
+
+This file was created on 06/30/2025 at 10:07:54 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+clk gclk <> Enabled Normal 1 <> [Auto] 
+addsub in <> Enabled Normal 2 <> [Auto] 
+gout in <> Enabled Normal 3 <> [Auto] 
+gin in <> Enabled Normal 4 <> [Auto] 
+buswires(1) in <> Enabled Normal 5 <> [Auto] 
+buswires(0) in <> Enabled Normal 6 <> [Auto] 
+ain in <> Enabled Normal 7 <> [Auto] 
+alu_out(0) inout <> Enabled Normal 21 <> [Auto] 
+alu_out(1) inout <> Enabled Normal 22 <> [Auto] 

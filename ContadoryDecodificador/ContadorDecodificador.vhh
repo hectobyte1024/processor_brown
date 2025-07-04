@@ -1,0 +1,9 @@
+ENTITY step_counter IS
+    PORT (
+	clk : in std_logic  ; 
+	clear : in std_logic  ; 
+	w : in std_logic  ; 
+	done : in std_logic  ; 
+	t : inout std_logic_vector (3 downto 0)
+    ) ;
+END step_counter ;

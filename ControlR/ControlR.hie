@@ -1,0 +1,2 @@
+ControlR.vhd #Entity control_registers 4
+ControlR.vhd #Architecture behavioral control_registers 15

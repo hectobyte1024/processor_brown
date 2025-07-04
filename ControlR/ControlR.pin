@@ -1,0 +1,25 @@
+Cypress Package: palc22v10d-25pc  PinOut File: ControlR.pin
+
+This file was created on 06/30/2025 at 01:05:04 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+y(2) in <> Enabled Normal 1 <> [Auto] 
+y(1) in <> Enabled Normal 2 <> [Auto] 
+y(0) in <> Enabled Normal 3 <> [Auto] 
+t(2) in <> Enabled Normal 4 <> [Auto] 
+x(2) in <> Enabled Normal 5 <> [Auto] 
+x(1) in <> Enabled Normal 6 <> [Auto] 
+x(0) in <> Enabled Normal 7 <> [Auto] 
+t(3) in <> Enabled Normal 8 <> [Auto] 
+t(1) in <> Enabled Normal 9 <> [Auto] 
+i(3) in <> Enabled Normal 10 <> [Auto] 
+i(2) in <> Enabled Normal 11 <> [Auto] 
+i(1) in <> Enabled Normal 13 <> [Auto] 
+rout(2) out <> Enabled Normal 14 <> [Auto] 
+rout(0) out <> Enabled Normal 15 <> [Auto] 
+rin(1) out <> Enabled Normal 16 <> [Auto] 
+i(0) in <> Enabled Normal 17 <> [Auto] 
+rin(0) out <> Enabled Normal 21 <> [Auto] 
+rin(2) out <> Enabled Normal 22 <> [Auto] 
+rout(1) out <> Enabled Normal 23 <> [Auto] 

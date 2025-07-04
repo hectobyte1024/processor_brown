@@ -1,0 +1,2 @@
+ContadorDecodificador.vhd #Entity step_counter 5
+ContadorDecodificador.vhd #Architecture behavioral step_counter 15

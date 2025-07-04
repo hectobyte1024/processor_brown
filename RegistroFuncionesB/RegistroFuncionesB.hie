@@ -1,0 +1,2 @@
+RegistroFuncionesB.vhd #Entity gal2_register_decoder 4
+RegistroFuncionesB.vhd #Architecture behavioral gal2_register_decoder 14

@@ -1,0 +1,7 @@
+top_registro.vhd #Entity top_level 4
+top_registro.vhd #Architecture structural top_level 18
+top_registro.vhd #Instance reg0 regn 30
+top_registro.vhd #Instance reg1 regn 31
+top_registro.vhd #Instance reg2 regn 32
+registro_base.vhd #Entity regn 4
+registro_base.vhd #Architecture arqreg regn 13
