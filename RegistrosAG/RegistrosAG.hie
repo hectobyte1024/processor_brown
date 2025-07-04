@@ -1,0 +1,9 @@
+top_registro_ag.vhd #Entity top_registro_ag 4
+top_registro_ag.vhd #Architecture structural top_registro_ag 19
+top_registro_ag.vhd #Instance reg_a regn 42
+top_registro_ag.vhd #Instance alu_inst alu 50
+top_registro_ag.vhd #Instance reg_g regn 58
+registro_base.vhd #Entity regn 4
+registro_base.vhd #Architecture arqreg regn 13
+alu.vhd #Entity alu 5
+alu.vhd #Architecture behavioral alu 14

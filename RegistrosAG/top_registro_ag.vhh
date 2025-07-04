@@ -1,0 +1,11 @@
+ENTITY top_registro_ag IS
+    PORT (
+	clk : in std_logic  ; 
+	ain : in std_logic  ; 
+	gin : in std_logic  ; 
+	gout : in std_logic  ; 
+	addsub : in std_logic  ; 
+	buswires : in std_logic_vector (1 downto 0) ; 
+	alu_out : inout std_logic_vector (1 downto 0)
+    ) ;
+END top_registro_ag ;
